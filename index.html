@@ -3,13 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Intro to HTML</title>
+    <title>My page</title>
 </head>
 <body>
-    <header></header>
-    <main>
-        <h1>Intro to HTML</h1>
+    <header style="text-align: center;">
+        <h1>This is my page!</h1>
+        <nav style="display: inline;">
+            <ul style="list-style-type: none; padding: 0; margin: 0;">
+                <li style="display: inline; padding-right: 10px;"><a href="./">HOME</a></li>
+                <li style="display: inline;"><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <main style="text-align: center;">
+        <session id="#images">
+            <div style="display: inline-block;">
+                <div style="display: inline-block; text-align: center;">
+                    <img style="width: 200px;" src="https://tdrpmimages.azureedge.net/photos/import/202404/2301/5631/93bdc578-e864-4696-ad4a-e51c6f524626.jpg-1024x786" alt="Image external" />
+                    <p>2020 Ford Escape SEL</p>
+                </div>
+                <div style="display: inline-block; text-align: center;">
+                    <img style="width: 200px;" src="images/white-car.jpg-1024x786" alt="Image local" />
+                    <p>2021 Ford Edge Titanium</p>
+                </div>
+            </div>            
+        </session>
+        <br>
+        <session id="#list" style="text-align: center;">
+            <div style="width: 200px;display: inline-block;">
+                <p>To see more car options, click the link below.</p>
+                <ul style="list-style-type: circle;">
+                    <li>Ford</li>
+                    <li>Honda</li>
+                    <li>Hyundai</li>
+                </ul>
+            </div>
+        </session>
+        <br>
+        <session id="tables" style="text-align: center;">
+            <table style="border: 1px solid #ccc; display: inline-block;">
+                <thead>
+                    <tr>
+                        <td colspan="2" style="border: 1px solid #ccc;">Types of cars</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ccc;">Cód.</td>
+                        <td style="border: 1px solid #ccc;">Type</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>#1</td>
+                        <td>SUV / Crossover</td>
+                    </tr>
+                    <tr>
+                        <td>#2</td>
+                        <td>Truck</td>
+                    </tr>
+                    <tr>
+                        <td>#3</td>
+                        <td>Sedan</td>
+                    </tr>
+                    <tr>
+                        <td>#4</td>
+                        <td>Coupe</td>
+                    </tr>
+                    <tr>
+                        <td>#5</td>
+                        <td>Minivan</td>
+                    </tr>
+                    <tr>
+                        <td>#6</td>
+                        <td>Hatchback</td>
+                    </tr>
+                    <tr>
+                        <td>#7</td>
+                        <td>Convertible</td>
+                    </tr>
+                    <tr>
+                        <td>#8</td>
+                        <td>Wagon</td>
+                    </tr>
+                </tbody>
+            </table>
+        </session>
+        <br><br>
+        <session id="#links">
+            <a href="https://www.autotrader.ca/cars/ab/calgary/" target="_blank">Link external</a>
+        </session>
     </main>
-    <footer></footer>
+    <footer>
+        <hr>
+        <p style="text-align: center;">Lucas Cardozo © 2024</p>
+    </footer>
 </body>
 </html>
